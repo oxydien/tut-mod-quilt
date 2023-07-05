@@ -1,0 +1,39 @@
+{
+	"schema_version": 1,
+	"quilt_loader": {
+		"group": "dev.oxydien",
+		"id": "tut_mod",
+		"version": "${version}",
+		"metadata": {
+			"name": "Tutorial mod",
+			"description": "jednoduchý mód",
+			"contributors": {
+				"oxydien": "Majitel"
+			},
+			"contact": {
+				"sources": "https://github.com/QuiltMC/quilt-template-mod"
+			},
+			"icon": "assets/example_mod/icon.png"
+		},
+		"intermediate_mappings": "net.fabricmc:intermediary",
+		"entrypoints": {
+			"init": "dev.oxydien.tut_mod.TutModInit",
+			"client": "dev.oxydien.tut_mod.TutModClientInit"
+		},
+		"depends": [
+			{
+				"id": "quilt_loader",
+				"versions": ">=0.19.1"
+			},
+			{
+				"id": "quilted_fabric_api",
+				"versions": ">=7.0.2"
+			},
+			{
+				"id": "minecraft",
+				"versions": ">=1.20"
+			}
+		]
+	},
+	"mixin": "example_mod.mixins.json"
+}
