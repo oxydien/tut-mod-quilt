@@ -22,7 +22,7 @@ public class ModItems {
 		return NITEM;
 	}
 
-	private static void AddItemToGroup(Item item) {
+	public static void AddItemToGroup(Item item) {
 		ItemGroupEvents.modifyEntriesEvent(RegistryKey.of(RegistryKeys.ITEM_GROUP,
 			new Identifier(TutModInit.MOD_ID, "tut_mod_group")))
 			.register(entries -> {

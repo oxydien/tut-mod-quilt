@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "tut_mod:block/raw_uranium_block"
+  }
+}

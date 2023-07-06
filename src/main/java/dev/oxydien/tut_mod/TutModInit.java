@@ -1,5 +1,6 @@
 package dev.oxydien.tut_mod;
 
+import dev.oxydien.tut_mod.blocks.ModBlocks;
 import dev.oxydien.tut_mod.items.ModItems;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
@@ -28,5 +29,6 @@ public class TutModInit implements ModInitializer {
 		Registry.register(Registries.ITEM_GROUP, new Identifier(MOD_ID,"tut_mod_group"),TutModGroup);
 
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

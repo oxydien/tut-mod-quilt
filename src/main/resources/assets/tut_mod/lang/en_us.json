@@ -2,5 +2,8 @@
   "item.tut_mod.uranium": "Uranium",
   "item.tut_mod.raw_uranium": "Raw Uranium",
 
+  "block.tut_mod.uranium_block": "Block of Uranium",
+  "block.tut_mod.raw_uranium_block": "Block of Raw Uranium",
+
   "itemgroup.tut_mod.group": "Grupka"
 }

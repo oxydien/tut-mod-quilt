@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "tut_mod:block/uranium_block"
+    }
+  }
+}
